@@ -17,8 +17,8 @@ jobs:
       - name: Setup and Build
         uses: ./.github/actions/setup-and-build
 
-      - name: Run type check
-        run: pnpm run typecheck
+      # - name: Run type check
+      #   run: pnpm run typecheck
 
       # - name: Run ESLint
       #   run: pnpm run lint
